@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@font-face {
+	font-family: "Gilroy";
+	src: url('../src/Assets/Fonts/Gilroy-Medium.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: "GilroyBold";
+	src: url('../src/Assets/Fonts/Gilroy-Bold.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 61px;
+	margin-bottom: 71px;
+	position: relative;
+	z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leftBottomImage {
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.rightBottomElement {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+	height: 250px;
+	z-index: 3;
+}
+
+.rightBottomImage {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+	height: 250px;
+	z-index: 3;
+}
+
+.ellipsCenterImage {
+	position: absolute;
+	top: 0;
+	left: 0%;
+	z-index: 1;
+}
+
+.skyImage {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0%;
+	z-index: 1;
 }

@@ -1,0 +1,59 @@
+.buttonElement {
+	position: absolute;
+	top: 380px;
+	left: 328px;
+}
+
+.buttonElementLong {
+	position: absolute;
+	top: 370px;
+	left: 250px;
+}
+
+.button {
+	width: 146px;
+	height: 54.86px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(98.61deg, #FBDB6A 5.19%, #FFEBA3 49.97%, #FBDB6A 95.49%);
+	box-shadow: inset 0px 0px 26px rgba(255, 255, 255, 0.54);
+	box-shadow: 0px 3px 0 #E8C240;
+	border-radius: 52px;
+	border: none;
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #242424;
+	cursor: pointer;
+}
+
+.buttonLong {
+	width: 307px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(98.61deg, #FBDB6A 5.19%, #FFEBA3 49.97%, #FBDB6A 95.49%);
+	box-shadow: inset 0px 0px 26px rgba(255, 255, 255, 0.54);
+	box-shadow: 0px 3px 0 #E8C240;
+	border-radius: 52px;
+	border: none;
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #242424;
+	cursor: pointer;
+}
+
+.imageNext {
+	margin-left: 10px;
+}

@@ -1,0 +1,119 @@
+.questionFormContainer {
+	margin-top: 45px;
+}
+
+.questionElement {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+	font-family: "Gilroy", "Arial", "sans-serif";
+}
+
+.questionNumber {
+	padding-bottom: 30px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+
+.text {
+	width: 256px;
+	margin-bottom: 40px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #242424;
+}
+
+.longText {
+	width: 299px;
+	margin-bottom: 40px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #242424;
+}
+
+.text .activeText {
+	color: #50B520;
+	font-weight: 800;
+}
+
+.longText .activeText {
+	color: #50B520;
+	font-weight: 800;
+}
+
+.inputStyle {
+	width: 210px;
+	height: 61px;
+	padding: 5px 0 5px 15px;
+	box-sizing: border-box;
+	background: #F4F4F4;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.02);
+	border-radius: 4px;
+	border: none;
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.inputStyle::-webkit-input-placeholder {
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+.inputStyle::-moz-placeholder {
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+/* Firefox 19+ */
+.inputStyle:-moz-placeholder {
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+/* Firefox 18- */
+.inputStyle:-ms-input-placeholder {
+	font-family: "Gilroy",
+		"Arial",
+		"sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.45);
+}

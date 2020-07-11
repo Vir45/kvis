@@ -1,0 +1,17 @@
+.headerContainer {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logoDescription {
+	width: 231px;
+	margin-left: 25px;
+	font-family: "Gilroy", "Arial", "sans-serif";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+	color: #242424;
+}
