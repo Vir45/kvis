@@ -2,7 +2,7 @@
 
 ### Task https://www.figma.com/file/NgF3FzxtgvbiZqmprLURlS/e-stado-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?node-id=744%3A17
 
-### Demo https://theatre-directors.netlify.com/
+### Demo https://xenodochial-hoover-9e1bc5.netlify.app/
 
 ## Installation:
 
